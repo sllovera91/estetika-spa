@@ -1,0 +1,42 @@
+main {
+    min-height: 35rem;
+}
+
+.fotos img {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+    border-radius: 0.7rem;
+    opacity: 0.8;
+    margin-top: 1rem; 
+    margin-bottom: 1rem; 
+    border: 1px double #57bc90;
+}
+
+
+.inicio {
+    margin-top: 1rem;
+}
+
+h2 {
+    color:#6f6f6f;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+@media screen and (max-width:800px) {
+
+    .fotos img {
+        width: none;
+        height: none;
+        object-fit:fill;
+        border-radius: 0.7rem;
+        opacity: 0.8;
+        margin-top: 0.5rem; 
+        margin-bottom: 0.5rem; 
+        border: 1px double #57bc90;
+    }
+
+    
+    }
+

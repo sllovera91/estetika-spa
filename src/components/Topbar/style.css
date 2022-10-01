@@ -1,0 +1,24 @@
+.top {
+    color: #57bc90;
+    display: flex; 
+    justify-content: flex-end;
+    list-style: none;
+    width: 95%;
+    margin-top: -1.25rem;
+    margin-bottom: 0rem;
+}
+
+.top li a {
+    color: black;
+    padding: 0rem 0.6rem;
+    text-decoration: none;
+}
+
+@media screen and (max-width:800px) {
+
+    .top {
+        display: none;
+    }
+    
+    }
+

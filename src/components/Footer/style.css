@@ -1,0 +1,16 @@
+.pie {
+    margin-top: 1rem;
+    padding-top:1rem;
+    padding-bottom: 1rem;   
+    background-color: #57bc90;
+    text-align: center;
+    color: white;
+}
+
+.pie i{
+    padding: 0rem   0.5rem;
+}
+
+.pie a {
+    color: white;
+}

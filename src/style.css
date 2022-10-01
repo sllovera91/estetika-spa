@@ -1,0 +1,128 @@
+* {
+    margin-top: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+html {
+    font-size: 1rem;
+    background-color: whitesmoke;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Montserrat', sans-serif;
+    color:#5e5e5e;
+    margin: 0.5rem 3rem;
+    padding: 1rem 1rem ;
+    max-height: 100%;
+    
+}
+
+@media screen and (max-width:800px) {
+
+    html {
+        font-size: 1rem;
+        background-color: whitesmoke;
+        font-family: 'Bree Serif', serif;
+        font-family: 'Montserrat', sans-serif;
+        color:#5e5e5e;
+        max-height: 100%;
+        margin: 0rem 0rem;
+        padding: 0.5rem 0rem ;
+        
+    }
+    
+    .top {
+        display: none;
+    }
+    
+    .arriba .pie, .contenedor, .container {
+        height: 100%;
+        font-size: 80%;
+    }
+    
+    .logo { 
+        width: 10rem; 
+        background-color: 
+    }
+    
+    .nav-menu a:hover, a:focus {
+        background-size: 100% 0.1rem;
+    };
+    .nav-menu a {
+        color: black;
+    }
+    
+    .fotos img {
+        width: 100%;
+        height: 15rem;
+        object-fit: contain;
+        border-radius: 1rem;
+        opacity: 0.8;
+          
+    }
+    
+    .btn {
+        width: 100%;
+    }
+    
+    
+    /* MENU RESPONSIVE */
+    
+    .hamburguer {
+        display: block;
+        }
+    
+    .hamburguer.active .bar:nth-child(2) {
+        opacity: 0;
+    
+    }
+    
+    .hamburguer.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    
+    }
+    
+    .hamburguer.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    
+    }
+    
+    .nav-menu {
+        position: fixed;
+        right: -73%;
+        top: 5rem;
+        gap:0;
+        flex-direction: column;
+        transition: 0.3s;
+        background-color: whitesmoke;
+        text-transform: uppercase;
+        margin-top: 0.8rem;
+        height: 50%;
+        width: 50%;
+        z-index: 1;
+    }
+    
+    .nav-item {
+        margin: 1rem 0;
+    }
+    
+    .nav-menu.active {
+        right:0;
+    }
+    
+    .nav-menu a {
+        color:black;
+        background-image: none;
+    }
+    
+    .nav-menu a:hover {
+        width: 100%;
+        display: flex;
+    
+    }
+    
+    
+    }
+
