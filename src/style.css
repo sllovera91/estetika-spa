@@ -29,7 +29,7 @@ html {
         color:#5e5e5e;
         max-height: 100%;
         margin: 0rem 0rem;
-        padding: 0.5rem 0rem ;
+        padding: 0rem 0rem ;
         
     }
     
@@ -67,61 +67,6 @@ html {
         width: 100%;
     }
     
-    
-    /* MENU RESPONSIVE */
-    
-    .hamburguer {
-        display: block;
-        }
-    
-    .hamburguer.active .bar:nth-child(2) {
-        opacity: 0;
-    
-    }
-    
-    .hamburguer.active .bar:nth-child(1) {
-        transform: translateY(8px) rotate(45deg);
-    
-    }
-    
-    .hamburguer.active .bar:nth-child(3) {
-        transform: translateY(-8px) rotate(-45deg);
-    
-    }
-    
-    .nav-menu {
-        position: fixed;
-        right: -73%;
-        top: 5rem;
-        gap:0;
-        flex-direction: column;
-        transition: 0.3s;
-        background-color: whitesmoke;
-        text-transform: uppercase;
-        margin-top: 0.8rem;
-        height: 50%;
-        width: 50%;
-        z-index: 1;
-    }
-    
-    .nav-item {
-        margin: 1rem 0;
-    }
-    
-    .nav-menu.active {
-        right:0;
-    }
-    
-    .nav-menu a {
-        color:black;
-        background-image: none;
-    }
-    
-    .nav-menu a:hover {
-        width: 100%;
-        display: flex;
-    
-    }
     
     
     }

@@ -11,6 +11,9 @@
   height: 6rem;
 }
 
+.navbar2 {
+  display: none;
+}
 
 .logo img {
   padding-top: 0.8rem;
@@ -55,20 +58,94 @@
   background-size: 100% 0.1rem;
 }
 
-
-
-.hamburguer {
+.menuresp {
   display: none;
-  cursor: pointer;
 }
 
-.bar {
+.resp {
+  display: none;
+}
+
+.item-resp {
+  display: none;
+}
+  
+
+
+@media screen and (max-width:950px) { 
+  
+  .logo img {
+    padding-top: 0.8rem;
+    padding-left: 0.5rem;
+  }
+
+  .nav-item  {
+    display: none;
+  }
+
+  .menuresp {
+    display: block;
+    align-self: center;
+    margin: 1rem 1rem;
+    z-index: 2;
+  }
+
+
+  .menuresp .menuNav {
+    display: block;
+    width: 2rem;
+    height: 0.2rem;
+    margin: 0.3rem;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out    ;
+    color: white;
+    background-color: white;   
+  }
+  
+
+
+  
+
+.menuNav {
+  list-style: none;
+  height: 100%;  
+  width: 0;
+  overflow: hidden;
+  background-color:  #57bc90;
+}
+
+
+.item-resp {
+  display: flex;
+  list-style: none;
+  margin: 0rem 0rem;
+  background-color: #FFFFFF;
+  padding: 2rem 0rem;
+}
+
+.item-resp a {
+  text-decoration: none;
+  background-color:  #FFFFFF;
+  color: black;
+  padding: 0rem 0rem;
+  font-size: 1.5rem;
+}
+
+.resp {
   display: block;
-  width: 2rem;
-  height: 0.2rem;
-  margin: 0.3rem;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out    ;
-  color: white;
-  background-color: white;    
+  position: fixed;
+}
+
+
+.cajita {
+  position: fixed;
+  background-color:  #FFFFFF;;
+  margin-top: 6rem;
+  border: 1px solid #57bc90;
+  padding: 2rem 2rem;
+  width: 95%;
+}
+
+
+  
 }
